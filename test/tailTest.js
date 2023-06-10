@@ -1,5 +1,4 @@
-//const assertEqual = require('../assertEqual');
-//const tail = require('../tail');
+
 
 const assert = require('chai').assert;
 const tail   = require('../tail');
@@ -13,7 +12,3 @@ describe("#tail", () => {
   });
 });
 
-// Test code
-//const words = ["Yo Yo", "Lighthouse", "Labs"];
-//tail(words);
-//assertEqual(tail(words.length, 3), 3);
