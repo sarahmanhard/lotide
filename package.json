@@ -1,7 +1,7 @@
 {
   "name": "@sarahmanhard/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "lotide project for LHL",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/sarahmanhard/lotide.git"
   },
-  "author": "",
+  "author": "Sarah Manhard",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/sarahmanhard/lotide/issues"
