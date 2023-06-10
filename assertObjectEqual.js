@@ -55,3 +55,4 @@ const assertObjectsEqual = function(actual, expected) {
 
 // Test
 assertObjectsEqual({ a: '1', b: 2 }, { b: 2, a: '1' });
+assertEqual(5, 5); // if this isn't here then assertEqual is delcared but never used
