@@ -20,5 +20,6 @@ const countLetters = function(letters) {
 };
 
 const result = countLetters("LHL");
-assertEqual(result["L"], 2);
-assertEqual(result["H"], 1);
+assertEqual(result["L"], 2);// Should Pass
+assertEqual(result["H"], 1); // Should Pass
+assertEqual(result["L"], 3); // Should fail
