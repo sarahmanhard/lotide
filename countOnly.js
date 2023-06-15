@@ -1,4 +1,4 @@
-const assertEqual = function(actual, expected) {
+/*const assertEqual = function(actual, expected) {
   if (actual === expected) {
     console.log(`✅✅✅ assertion Passed: ${actual} === ${expected}`);
  } else {
@@ -25,7 +25,10 @@ const assertArraysEqual = function(arr1, arr2) {
   } else {
     console.log(`🛑🛑🛑 Assertion Failed: [${arr1}] !== [${arr2}]`);
   }
-}
+}*/
+const assertEqual = require('./assertEqual');
+
+
 
 const countOnly = function(allItems, itemsToCount) {
   const results = {};
