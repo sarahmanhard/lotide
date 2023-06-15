@@ -1,12 +1,12 @@
-const assertEqual = function(actual, expected) {
+/*const assertEqual = function(actual, expected) {
   if (actual === expected) {
     console.log(`✅✅✅ assertion Passed: ${actual} === ${expected}`)
  }else {
   console.log(`🛑🛑🛑 Assertion Failed: ${actual} !== ${expected}`)
   }
-};
+};*/
 
-const eqArrays = function(arr1, arr2) {
+/*const eqArrays = function(arr1, arr2) {
   if (arr1.length !== arr2.length) {
     return false;
   }
@@ -16,8 +16,10 @@ const eqArrays = function(arr1, arr2) {
     }
   }
   return true;
-};
-
+}; */
+// above code no longer required but left as reference
+const assertEqual = require('./assertEqual');
+const eqArrays = require('./eqArrays');
 
 const eqObjects = function(object1, object2) {
   const keys1 = Object.keys(object1);

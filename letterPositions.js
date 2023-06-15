@@ -1,4 +1,4 @@
-const assertEqual = function(actual, expected) {
+/*const assertEqual = function(actual, expected) {
   if (actual === expected) {
     console.log(`✅✅✅ assertion Passed: ${actual} === ${expected}`);
  } else {
@@ -17,7 +17,7 @@ const eqArrays = function(arr1, arr2) { // compares each array element by elemen
     }
   }
  return true; // if loop completes without any unequal elements it means both arrays are identical! :)
-};
+};*/
 
 const letterPositions = function(sentence) {
   const results = {};
