@@ -41,3 +41,5 @@ assertEqual(result2, "Tesla");
 const emptyObj = {};
 const result3 = findKey(emptyObj, x => x);
 assertEqual(result3, undefined);
+
+module.exports = findKey;
