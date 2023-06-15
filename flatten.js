@@ -42,3 +42,13 @@ const flatten = function(array) { //empty array to store flattened elements
 //test code
 assertArraysEqual(flatten([1, [2, 3, [4]]]), [1, 2, 3, 4]);
 
+// Example 2: Flattening a simple nested array
+const arr1 = [1, [2, 3], 4, [5]];
+console.log(flatten(arr1));
+// Output [1, 2, 3, 4, 5]
+
+// Example 3: Flattening an array with multiple levels of nesting
+const arr2 = [1, [2, [3, [4, [5]]]]];
+console.log(flatten(arr2));
+// Output [1, 2, 3, 4, 5]
+
