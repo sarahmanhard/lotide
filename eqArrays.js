@@ -1,5 +1,5 @@
-
-const assertEqual = require('./assertEqual');
+const arr1 = [1, 2, 3];
+const arr2 = [1, 2, 3];
 
 const eqArrays = function(arr1, arr2) { // compares each array element by element and returns false if one is different
   if (arr1.length !== arr2.length) {
@@ -13,8 +13,6 @@ const eqArrays = function(arr1, arr2) { // compares each array element by elemen
   }
  return true; // if loop completes without any unequal elements it means both arrays are identical! :)
 };
-assertEqual(eqArrays([1, 2, 3], [1, 2, 3]), true); // => should PASS
-assertEqual(eqArrays([1, 2, 3], [1, 2, 9]), false); // => should Fail
-
+console.log(eqArrays(arr1, arr2)); // Output: true
 module.exports = eqArrays;
 
